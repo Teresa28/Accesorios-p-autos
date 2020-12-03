@@ -1,0 +1,67 @@
+﻿
+/* DISEÑO DE LA CABECERA*/
+
+header, .main
+{
+ width:100%; /*porcentajes para diseño responsivo*/
+ margin:20px, auto;
+}
+
+header
+{
+background:#D89C4E;
+}
+
+header div p
+{
+font-family: "Britannic Bold";/*tipo de duente aplicada a la cabecera*/
+font-size:30px;/*tamaño de letra del texto de la cabecera*/
+color:white;/*tcolor de letra del texto de la cabecera*/
+}
+
+header nav ul li a
+{
+
+color:white;
+font-size:20px;
+text-decoration:none; /*quita subrayado*/
+
+}
+.menu li
+{
+padding: 5px;
+display:inline-block;  /*pone los elementos de la lista en forma horizontal*/
+
+}
+
+
+
+
+/*DISEÑO DEL CUERPO*/
+
+table td
+{
+ padding:30px; /*aumenta el tamaño de cada celda*/
+}
+
+table td:hover
+{
+  background: #D2E9F9; /*cambia el color(azul claro) de fondo al pasar el cursor, propiedad hover hace que esto sea posible*/
+}
+table tr th
+{
+font-size:20px;
+}
+
+
+
+
+/*DISEÑO DEL PIE DE PAGINA*/
+
+footer
+{
+ background:#425883; /*Fondo del pie de página*/
+ color:white;/*color de las letras*/
+ clear:both; /*limpia los float*/
+ text-align:center;/*alinea el texto al centro*/
+}

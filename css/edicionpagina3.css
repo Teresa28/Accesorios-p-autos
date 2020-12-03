@@ -1,0 +1,136 @@
+﻿
+/* DISEÑO DE LA CABECERA*/
+
+header, .main
+{
+ width:100%; /*porcentajes para diseño responsivo*/
+ margin:20px, auto;
+}
+
+header
+{
+background:#D89C4E ;
+}
+
+
+
+header nav ul li a
+{
+color:white;/*color del texto de las opciones del menú*/
+font-size:20px;/*tamaño del texto de las opciones del menú*/
+text-decoration:none; /*quita subrayado*/
+}
+
+.menu li
+{
+padding: 10px 20px; /*separación de opciones del menú y de la cabecera*/
+display:inline-block;  /*pone los elementos de la lista en forma horizontal*/
+
+}
+
+
+header div p
+{
+font-family: "Britannic Bold";/*tipo de duente aplicada a la cabecera*/
+font-size:30px;/*tamaño de letra del texto de la cabecera*/
+color:white;/*tcolor de letra del texto de la cabecera*/
+}
+
+header nav ul li a
+{
+
+color:white;
+font-size:20px;
+text-decoration:none; /*quita subrayado*/
+
+}
+.menu li
+{
+padding: 5px;
+display:inline-block;  /*pone los elementos de la lista en forma horizontal*/
+
+}
+
+
+/* DISEÑO DEL CUERPO*/
+h1
+{
+color:black;
+font-size:20px;
+}
+
+
+
+
+form
+{
+ width:40%;/*tamaño del formulario*/
+ border:1px solid #ccc;/*borde del formulario */
+ margin:20px;
+padding:25px;
+}
+
+
+input[type=text]
+{
+ margin-bottom:10px;
+ width:67%;
+ padding:10px; /*Se da espacio entre el texto y la caja*/
+ border:1px solid #ccc;
+}
+input[type=email]
+{
+ margin-bottom:10px;
+ width:67%;
+ padding:10px; /*Se da espacio entre el texto y la caja*/
+ border:1px solid #ccc;
+}
+
+
+
+
+
+input[type="submit"]
+{
+ background:black;
+ color:#fff;
+ border:outset;
+ width:20%;
+}
+
+input[type="Reset"]
+{
+ background:black;
+ color:#fff;
+ border:outset;
+ width:15%;
+
+}
+
+
+
+input[type="submit"]:hover
+{
+ background:#6AB1E1;
+color:black;
+ cursor:pointer;
+}
+
+input[type="reset"]:hover
+{
+ background:#6AB1E1;
+color:black;
+ cursor:pointer;
+}
+
+
+
+/*DISEÑO DEL PIE DE PAGINA*/
+
+footer
+{
+ background:#425883; /*Fondo del pie de página*/
+ color:white;/*color de las letras*/
+ clear:both; /*limpia los float*/
+ text-align:center;/*alinea el texto al centro*/
+}

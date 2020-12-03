@@ -1,0 +1,86 @@
+﻿
+/* DISEÑO DE LA CABECERA*/
+header, .main
+{
+ width:100%; /*porcentajess para diseño responsivo*/
+ margin:20px, auto;
+}
+
+header div p
+{
+
+font-family: "Britannic Bold";/*tipo de duente aplicada a la cabecera*/
+font-size:35px; /*tamaño de letra del texto de la cabecera*/
+color:white; /*tcolor de letra del texto de la cabecera*/
+}
+
+
+header
+{
+background:#425883;/*fondo de la cabecera*/
+}
+
+
+
+
+header nav ul li a
+{
+color:white;/*color del texto de las opciones del menú*/
+font-size:20px;/*tamaño del texto de las opciones del menú*/
+text-decoration:none; /*quita subrayado*/
+}
+
+.menu li
+{
+padding: 10px 20px; /*separación de opciones del menú y de la cabecera*/
+display:inline-block;  /*pone los elementos de la lista en forma horizontal*/
+
+}
+
+
+
+
+
+/* DISEÑO DEL CUERPO DE LA PAGINA*/
+.main .articles
+{
+ width:80%; /*del total de area del dispositivo*/
+ 
+ float:right; /*envia contenido a la*/
+}
+
+
+.main .articles article p
+{
+font-size:19px;
+font-family: "Britannic Bold";
+}
+
+.main .articles article  li
+{
+font-size:16px;
+font-family: "Britannic Bold";
+}
+
+/*Espacio entre bloques de texto*/
+.main .articles article
+{
+ width:60%;
+ padding:20px;
+ background:#fff;
+ margin-bottom:20px;
+}
+
+
+
+
+/*DISEÑO DEL PIE DE PAGINA*/
+footer
+{
+ background:#425883 ;
+ color:white;
+ clear:both; /*limpia los float*/
+ /*padding:10px 0px;*/
+ text-align:center;
+}
+
